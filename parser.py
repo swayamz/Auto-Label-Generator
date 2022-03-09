@@ -27,7 +27,7 @@ while True:
         if allsheets: 
             pyautogui.press('Tab', 7) 
             pyautogui.press('down')
-        #pyautogui.press('enter')
+        pyautogui.press('enter')
 
     date = datetime.now()
     ritm = soup.find(id="sys_readonly.sc_req_item.number").get("value")
@@ -59,7 +59,7 @@ while True:
     user = user[:user.find('(')-1]
     requestor = requestor[:requestor.find('(')-1]
 
-    if group is not "":
+    if group != "":
         cruzid = group_login
         user = group_login
     if " " in comp_st or "(" in comp_st or ")" in comp_st or "," in comp_st: comp_st = ""
