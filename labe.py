@@ -21,11 +21,11 @@ C_mig = input("Migration? (Y/N def: N): ")
 if (C_mig == ""): C_mig = "N"
 
 extern_label = open("extern.txt", "w")
-comp_label = open("comp.txt", "w")
+comp_label = open("comp.html", "w")
 users_label = open("users.txt", "w")
 
 #External Label
-extern_label.write("RITM00" + RITM + "\n")
+extern_label.write("<b>RITM00" + RITM + "<\b>\n")
 extern_label.write("Client Name:\n" + CU_name + "\n")
 extern_label.write("Intake Data: " + date.strftime("%m/%d/%Y") + "\n")
 if(C_mig == "Y"):
@@ -60,9 +60,18 @@ path_to_notepad = 'C:\\Program Files (x86)\\Brother\\Ptedit52\Ptedit52.exe'
 path_to_file = 'comp.txt'
 P = subprocess.Popen([path_to_notepad, path_to_file])
 time.sleep(5)
-'''pyautogui.keyDown('ctrl')  # hold down the shift key
+pyautogui.keyDown('ctrl')  # hold down the shift key
 pyautogui.press('p')     # press the left arrow key
 pyautogui.keyUp('ctrl')
 pyautogui.press('enter')
 time.sleep(1)
-P.terminate()'''
+P.terminate()
+path_to_file = 'extern.txt'
+P = subprocess.Popen([path_to_notepad, path_to_file])
+time.sleep(5)
+pyautogui.keyDown('ctrl')  # hold down the shift key
+pyautogui.press('p')     # press the left arrow key
+pyautogui.keyUp('ctrl')
+pyautogui.press('enter')
+time.sleep(1)
+P.terminate()
