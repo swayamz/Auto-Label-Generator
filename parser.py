@@ -17,8 +17,8 @@ while True:
         #print(i, a[i].get("value"))
 
     b = soup.find_all(id=lambda x: x and x.startswith('sys_original.ni.VE'))
-    for i in range(len(b)):
-        print(i, b[i].get("value"))
+    #for i in range(len(b)):
+        #print(i, b[i].get("value"))
 
     def printlb(allsheets = True):
         pyautogui.keyDown('ctrl')
