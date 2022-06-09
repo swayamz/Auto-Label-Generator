@@ -1,0 +1,1 @@
+"C:\Users\depot\AppData\Local\Programs\Python\Python310\python.exe" "C:\Users\Public\Documents\AutoLabelMaker\parser.py"
