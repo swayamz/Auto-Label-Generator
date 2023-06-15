@@ -1,1 +1,1 @@
-"C:\Users\depot\AppData\Local\Programs\Python\Python310\python.exe" "C:\Users\Public\Documents\AutoLabelMaker\parser.py"
+"C:\Users\labeluser\AppData\Local\Programs\Python\Python311\python.exe" ".\parse.py"

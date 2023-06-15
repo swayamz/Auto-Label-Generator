@@ -1,2 +1,0 @@
-RITM, ST, PCNAME, FULLUSERNAME, DOMAIN, SW, REQUESTORNAME, BACKUP, RETURNLOC
-70534, , ___-mjluttre-___, Michael Luttrell, AD,  , Michael Luttrell, No, Pick up at De

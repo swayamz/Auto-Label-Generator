@@ -1,2 +1,0 @@
-RITM, PCNAME, FULLUSERNAME, SW, REQUESTORNAME, BACKUP
-70596, ___-mibnmoha-___, Maina Ibn Mohammed,  , Jacey Mize, No, Drop off to campus location
